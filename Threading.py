@@ -1,5 +1,5 @@
-import os, sys, time, random as r
-import threading, multiprocessing
+import time, random as r
+import threading
 
 def task(lb,ub,refreshTime,displayLocation):
     while True:
